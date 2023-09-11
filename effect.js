@@ -143,7 +143,7 @@ $('document').ready(function(){
 
 	});
 
-		
+		// 测试蛋糕消失
 	$('#wish_message').click(function(){
 		 vw = $(window).width()/2;
 
@@ -171,7 +171,7 @@ $('document').ready(function(){
 	
 	$('#story').click(function(){
 		$(this).fadeOut('slow');
-		$('.cake').fadeOut('fast').promise().done(function(){
+		$('.cake').fadeIn('slow').promise().done(function(){
 			$('.message').fadeIn('slow');
 		 });
 		
