@@ -130,7 +130,7 @@ $('document').ready(function(){
 		// $(this).fadeOut('slow').delay(3000).promise().done(function(){
 		// 	$('#light_candle').fadeIn('slow');
 		// });
-		$(this).delay(3000).promise().done(function(){
+		$(this).promise().done(function(){
 			$('#light_candle');
 		});
 	});
