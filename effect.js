@@ -126,10 +126,9 @@ $('document').ready(function(){
 
 	$('#cake_fadein').click(function(){
 		$('.cake').fadeIn('slow');
-		// 测试关闭蛋糕消失
-		// $(this).fadeOut('slow').delay(3000).promise().done(function(){
-		// 	$('#light_candle').fadeIn('slow');
-		// });
+		$(this).fadeOut('slow').delay(3000).promise().done(function(){
+			$('#light_candle').fadeIn('slow');
+		 });
 		$(this).promise().done(function(){
 			$('#light_candle');
 		});
@@ -137,13 +136,11 @@ $('document').ready(function(){
 
 	$('#light_candle').click(function(){
 		$('.fuego').fadeIn('slow');
-		// 测试关闭蛋糕消失
-		// $(this).fadeOut('slow').promise().done(function(){
-		// 	$('#wish_message').fadeIn('slow');
-		// });
-		$(this).promise().done(function(){
-		$('#wish_message');
+
+		 $(this).fadeOut('slow').promise().done(function(){
+			$('#wish_message').fadeIn('slow');
 		});
+
 	});
 
 		
@@ -174,9 +171,14 @@ $('document').ready(function(){
 	
 	$('#story').click(function(){
 		$(this).fadeOut('slow');
-		$('.cake').fadeOut('fast').promise().done(function(){
+		// 测试取消蛋糕消失
+		// $('.cake').fadeOut('fast').promise().done(function(){
+		// 	$('.message').fadeIn('slow');
+		// });
+		
+		$('.cake').fadeOut('slow').promise().done(function(){
 			$('.message').fadeIn('slow');
-		});
+		 });
 		
 		var i;
 
