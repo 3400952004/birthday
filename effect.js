@@ -130,6 +130,9 @@ $('document').ready(function(){
 		// $(this).fadeOut('slow').delay(3000).promise().done(function(){
 		// 	$('#light_candle').fadeIn('slow');
 		// });
+				$(this).promise().done(function(){
+		$('#wish_message')
+		});
 	});
 
 	$('#light_candle').click(function(){
@@ -138,6 +141,9 @@ $('document').ready(function(){
 		// $(this).fadeOut('slow').promise().done(function(){
 		// 	$('#wish_message').fadeIn('slow');
 		// });
+		$(this).promise().done(function(){
+		$('#wish_message')
+		});
 	});
 
 		
