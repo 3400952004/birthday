@@ -171,7 +171,7 @@ $('document').ready(function(){
 	
 	$('#story').click(function(){
 		$(this).fadeOut('slow');
-		$('.cake').fadeIn('slow').promise().done(function(){
+		$('.cake').fadeOut('fast').promise().done(function(){
 			$('.message').fadeIn('slow');
 		 });
 		
