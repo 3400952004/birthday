@@ -171,12 +171,7 @@ $('document').ready(function(){
 	
 	$('#story').click(function(){
 		$(this).fadeOut('slow');
-		// 测试取消蛋糕消失
-		// $('.cake').fadeOut('fast').promise().done(function(){
-		// 	$('.message').fadeIn('slow');
-		// });
-		
-		$('.cake').fadeOut('slow').promise().done(function(){
+		$('.cake').fadeOut('fast').promise().done(function(){
 			$('.message').fadeIn('slow');
 		 });
 		
