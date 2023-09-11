@@ -1,3 +1,5 @@
+/* 修改1090左右的有关balloon的行数 */
+
 body {
 	/*background-color: #FFDAB9;	*/
 	background-color: #000;
@@ -1087,8 +1089,11 @@ audio {
 }
 .balloons h2 {
 	text-transform: uppercase;
-	font-family: 'Signika', sans-serif;
-	font-size: 50px;
+        /* 	 初始字体
+	font-family: 'Signika', sans-serif; */
+/* 	更新字体 */
+	font-family: 'Zhi+Mang+Xing', sans-serif;
+	font-size: 40px;
 	color: #BF4136;
 	text-shadow: 5px 5px 5px #FFF;
 	display: none;
