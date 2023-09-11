@@ -126,16 +126,18 @@ $('document').ready(function(){
 
 	$('#cake_fadein').click(function(){
 		$('.cake').fadeIn('slow');
-		$(this).fadeOut('slow').delay(3000).promise().done(function(){
-			$('#light_candle').fadeIn('slow');
-		});
+		// 测试关闭蛋糕消失
+		// $(this).fadeOut('slow').delay(3000).promise().done(function(){
+		// 	$('#light_candle').fadeIn('slow');
+		// });
 	});
 
 	$('#light_candle').click(function(){
 		$('.fuego').fadeIn('slow');
-		$(this).fadeOut('slow').promise().done(function(){
-			$('#wish_message').fadeIn('slow');
-		});
+		// 测试关闭蛋糕消失
+		// $(this).fadeOut('slow').promise().done(function(){
+		// 	$('#wish_message').fadeIn('slow');
+		// });
 	});
 
 		
