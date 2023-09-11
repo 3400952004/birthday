@@ -130,8 +130,8 @@ $('document').ready(function(){
 		// $(this).fadeOut('slow').delay(3000).promise().done(function(){
 		// 	$('#light_candle').fadeIn('slow');
 		// });
-				$(this).promise().done(function(){
-		$('#wish_message')
+		$(this).delay(3000).promise().done(function(){
+			$('#light_candle');
 		});
 	});
 
@@ -142,7 +142,7 @@ $('document').ready(function(){
 		// 	$('#wish_message').fadeIn('slow');
 		// });
 		$(this).promise().done(function(){
-		$('#wish_message')
+		$('#wish_message');
 		});
 	});
 
