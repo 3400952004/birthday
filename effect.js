@@ -182,7 +182,7 @@ $('document').ready(function(){
 			i=i+1;
 			$("p:nth-child("+i+")").fadeIn('slow').delay(1500);
 			if(i==50){
-				$("p:nth-child(49)").fadeIn('slow').promise().done(function () {
+				$("p:nth-child("+i-1+")").fadeIn('slow').promise().done(function () {
 					$('.cake').fadeIn('fast');
 					// 测试结尾句
 				});
