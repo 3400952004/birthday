@@ -126,8 +126,6 @@ $('document').ready(function(){
 
 	$('#cake_fadein').click(function(){
 		$('.cake').fadeIn('slow');
-		// cake1
-		$('.cake1').fadeIn('slow');
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
 			$('#light_candle').fadeIn('slow');
 		 });
@@ -140,8 +138,6 @@ $('document').ready(function(){
 
 	$('#light_candle').click(function(){
 		$('.fuego').fadeIn('slow');
-		// fuego1
-		$('.fuego1').fadeIn('slow')
 		 $(this).fadeOut('slow').promise().done(function(){
 			$('#wish_message').fadeIn('slow');
 		});
@@ -151,7 +147,6 @@ $('document').ready(function(){
 		// 测试蛋糕消失
 	$('#wish_message').click(function(){
 		 vw = $(window).width()/2;
-
 		$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').stop();
 		$('#b1').attr('id','b11');
 		$('#b2').attr('id','b22')
@@ -176,19 +171,20 @@ $('document').ready(function(){
 	
 	$('#story').click(function(){
 		$(this).fadeOut('slow');
-		$('.cake').fadeIn('slow').promise().done(function(){
+		$('.cake').fadeOut('fast').promise().done(function(){
 			$('.message').fadeIn('slow');
 		 });
 		
 		var i;
 
 		function msgLoop (i) {
-			$("p:nth-child("+i+")").fadeOut('slow').delay(800).promise().done(function(){
+			$("p:nth-child("+i+")").fadeOut('slow').delay(1500).promise().done(function(){
 			i=i+1;
-			$("p:nth-child("+i+")").fadeIn('slow').delay(1000);
+			$("p:nth-child("+i+")").fadeIn('slow').delay(1500);
 			if(i==50){
 				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
 					$('.cake').fadeIn('fast');
+					// 测试结尾句
 				});
 				
 			}
