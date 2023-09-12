@@ -156,7 +156,7 @@ $('document').ready(function(){
 		// 测试蛋糕消失
 	$('#wish_message').click(function(){
 		 vw = $(window).width()/2;
-		$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').stop();
+		$('#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8').stop();
 		$('#b1').attr('id','b11');
 		$('#b2').attr('id','b22')
 		$('#b3').attr('id','b33')
