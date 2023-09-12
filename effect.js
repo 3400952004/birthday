@@ -423,6 +423,8 @@ $('document').ready(function(){
 		$('#b77').animate({top:240, left: vw+250},500);
 
 		$('.balloons').css('opacity','0.9');
+		$('.balloons1').css('opacity','0.2');
+		
 		$('.balloons h2').fadeIn(3000);
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
 			$('#story').fadeIn('slow');
