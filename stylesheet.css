@@ -1283,12 +1283,12 @@ audio {
 	font-weight: bold;
 }
 /*测试结尾messAge  */
-.message1 {
+.message_Test {
 	margin-top: 250px;
 	display: none;
 }
 /*test Row message p  */
-.message1 p {
+.message_Test p {
 	font-family: 'Signika', sans-serif;
 	font-size: 50px;
 	text-transform: uppercase;
