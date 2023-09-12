@@ -110,10 +110,228 @@ $('document').ready(function(){
 			loopEight();
 		});
 	}
+	function loopNine() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b9').animate({left:randleft,bottom:randtop},10000,function(){
+			loopNine();
+		});
+	}
+	function loopTen() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b10').animate({left:randleft,bottom:randtop},10000,function(){
+			loopTen();
+		});
+	}
+	function loopEleven() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b11').animate({left:randleft,bottom:randtop},10000,function(){
+			loopEleven();
+		});
+	}
+	function loopTwelve() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b12').animate({left:randleft,bottom:randtop},10000,function(){
+			loopTwelve();
+		});
+	}
+	function loopThirteen() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b13').animate({left:randleft,bottom:randtop},10000,function(){
+			loopThirteen();
+		});
+	}
+	function loopFourteen() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b14').animate({left:randleft,bottom:randtop},10000,function(){
+			loopFourteen();
+		});
+	}
+	function loopFifteen() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b15').animate({left:randleft,bottom:randtop},10000,function(){
+			loopFifteen();
+		});
+	}
+	function loopSixteen() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b16').animate({left:randleft,bottom:randtop},10000,function(){
+			loopSixteen();
+		});
+	}
+	function loopSeventeen() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b17').animate({left:randleft,bottom:randtop},10000,function(){
+			loopSeventeen();
+		});
+	}
+	function loopEighteen() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b18').animate({left:randleft,bottom:randtop},10000,function(){
+			loopEighteen();
+		});
+	}
+	function loopNineteen() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b19').animate({left:randleft,bottom:randtop},10000,function(){
+			loopNineteen();
+		});
+	}
+	function loopTwenty() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b20').animate({left:randleft,bottom:randtop},10000,function(){
+			loopTwenty();
+		});
+	}
+	function loopTwentyOne() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b21').animate({left:randleft,bottom:randtop},10000,function(){
+			loopTwentyOne();
+		});
+	}
+	function loopTwentyTwo() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b22').animate({left:randleft,bottom:randtop},10000,function(){
+			loopTwentyTwo();
+		});
+	}
+	function loopTwentyThree() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b23').animate({left:randleft,bottom:randtop},10000,function(){
+			loopTwentyThree();
+		});
+	}
+	function loopTwentyFour() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b24').animate({left:randleft,bottom:randtop},10000,function(){
+			loopTwentyFour();
+		});
+	}
+	function loopTwentyFive() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b25').animate({left:randleft,bottom:randtop},10000,function(){
+			loopTwentyFive();
+		});
+	}
+	function loopTwentySix() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b26').animate({left:randleft,bottom:randtop},10000,function(){
+			loopTwentySix();
+		});
+	}
+	function loopTwentySeven() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b27').animate({left:randleft,bottom:randtop},10000,function(){
+			loopTwentySeven();
+		});
+	}
+	function loopTwentyEight() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b28').animate({left:randleft,bottom:randtop},10000,function(){
+			loopTwentyEight();
+		});
+	}
+	function loopTwentyNine() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b29').animate({left:randleft,bottom:randtop},10000,function(){
+			loopTwentyNine();
+		});
+	}
+	function loopThirty() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b30').animate({left:randleft,bottom:randtop},10000,function(){
+			loopThirty();
+		});
+	}
+	function loopThirtyOne() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b31').animate({left:randleft,bottom:randtop},10000,function(){
+			loopThirtyOne();
+		});
+	}
+	function loopThirtyTwo() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b32').animate({left:randleft,bottom:randtop},10000,function(){
+			loopThirtyTwo();
+		});
+	}
+	function loopThirtyThree() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b33').animate({left:randleft,bottom:randtop},10000,function(){
+			loopThirtyThree();
+		});
+	}
+	function loopThirtyFour() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b34').animate({left:randleft,bottom:randtop},10000,function(){
+			loopThirtyFour();
+		});
+	}
+	function loopThirtyFive() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b35').animate({left:randleft,bottom:randtop},10000,function(){
+			loopThirtyFive();
+		});
+	}
+	function loopThirtySix() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b36').animate({left:randleft,bottom:randtop},10000,function(){
+			loopThirtySix();
+		});
+	}
+	function loopThirtySeven() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b37').animate({left:randleft,bottom:randtop},10000,function(){
+			loopThirtySeven();
+		});
+	}
+	function loopThirtyEight() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b38').animate({left:randleft,bottom:randtop},10000,function(){
+			loopThirtyEight();
+		});
+	}
+	function loopThirtyNine() {
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
+		$('#b39').animate({left:randleft,bottom:randtop},10000,function(){
+			loopThirtyNine();
+		});
+	}
+
 	$('#balloons_flying').click(function(){
 		$('.balloon-border').animate({top:-500},8000);
-		$('#b1,#b4,#b5,#b7').addClass('balloons-rotate-behaviour-one');
-		$('#b2,#b3,#b6,#b8').addClass('balloons-rotate-behaviour-two');
+		$('#b1,#b3,#b5,#b7,#b9,#b11,#b13,#b15,#b17,#b19,#b21,#b23,#b25,#b27,#b29,#b31,#b33,#b35,#b37,#b39').addClass('balloons-rotate-behaviour-one');
+		$('#b2,#b4,#b6,#b8,#b9,#b10,#b12,#b14,#b16,#b18,#b20,#b22,#b24,#b26,#b28,#b30,#b32,#b34,#b36,#b38').addClass('balloons-rotate-behaviour-two');
 		// $('#b3').addClass('balloons-rotate-behaviour-two');
 		// $('#b4').addClass('balloons-rotate-behaviour-one');
 		// $('#b5').addClass('balloons-rotate-behaviour-one');
@@ -127,6 +345,38 @@ $('document').ready(function(){
 		loopSix();
 		loopSeven();
 		loopEight();
+		loopTen();
+		loopEleven();
+		loopTwelve();
+		loopThirteen();
+		loopFourteen();
+		loopFifteen();
+		loopSixteen();
+		loopSeventeen();
+		loopEighteen();
+		loopNineteen();
+		loopTwenty();
+		loopTwentyOne();
+		loopTwentyTwo();
+		loopTwentyThree();
+		loopTwentyFour();
+		loopTwentyFive();
+		loopTwentySix();
+		loopTwentySeven();
+		loopTwentyEight();
+		loopTwentyNine();
+		loopThirty();
+		loopThirtyOne();
+		loopThirtyTwo();
+		loopThirtyThree();
+		loopThirtyFour();
+		loopThirtyFive();
+		loopThirtySix();
+		loopThirtySeven();
+		loopThirtyEight();
+		loopThirtyNine();
+
+
 		
 		$(this).fadeOut('slow').delay(5000).promise().done(function(){
 			$('#cake_fadein').fadeIn('slow');
