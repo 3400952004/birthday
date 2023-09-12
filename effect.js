@@ -54,9 +54,9 @@ $('document').ready(function(){
 	});
 
 	function loopOne() {
-		var randleft = 2000*Math.random();
+		var randright = 2000*Math.random();
 		var randtop = 1000*Math.random();
-		$('#b1').animate({left:randleft,bottom:randtop},10000,function(){
+		$('#b1').animate({right:randright,bottom:randtop},10000,function(){
 			loopOne();
 		});
 	}
@@ -127,7 +127,7 @@ $('document').ready(function(){
 	function loopEleven() {
 		var randleft = 1000*Math.random();
 		var randtop = 500*Math.random();
-		$('#b11').animate({left:randleft,bottom:randtop},10000,function(){
+		$('#b1100').animate({left:randleft,bottom:randtop},10000,function(){
 			loopEleven();
 		});
 	}
@@ -204,7 +204,7 @@ $('document').ready(function(){
 	function loopTwentyTwo() {
 		var randleft = 1000*Math.random();
 		var randtop = 500*Math.random();
-		$('#b22').animate({left:randleft,bottom:randtop},10000,function(){
+		$('#b2200').animate({left:randleft,bottom:randtop},10000,function(){
 			loopTwentyTwo();
 		});
 	}
@@ -281,7 +281,7 @@ $('document').ready(function(){
 	function loopThirtyThree() {
 		var randleft = 1000*Math.random();
 		var randtop = 500*Math.random();
-		$('#b33').animate({left:randleft,bottom:randtop},10000,function(){
+		$('#b3300').animate({left:randleft,bottom:randtop},10000,function(){
 			loopThirtyThree();
 		});
 	}
@@ -330,8 +330,8 @@ $('document').ready(function(){
 
 	$('#balloons_flying').click(function(){
 		$('.balloon-border').animate({top:-500},8000);
-		$('#b1,#b3,#b5,#b7,#b9,#b11,#b13,#b15,#b17,#b19,#b21,#b23,#b25,#b27,#b29,#b31,#b33,#b35,#b37,#b39').addClass('balloons-rotate-behaviour-one');
-		$('#b2,#b4,#b6,#b8,#b9,#b10,#b12,#b14,#b16,#b18,#b20,#b22,#b24,#b26,#b28,#b30,#b32,#b34,#b36,#b38').addClass('balloons-rotate-behaviour-two');
+		$('#b1,#b3,#b5,#b7,#b9,#b1100,#b13,#b15,#b17,#b19,#b21,#b23,#b25,#b27,#b29,#b31,#b3300,#b35,#b37,#b39').addClass('balloons-rotate-behaviour-one');
+		$('#b2,#b4,#b6,#b8,#b9,#b10,#b12,#b14,#b16,#b18,#b20,#b2200,#b24,#b26,#b28,#b30,#b32,#b34,#b36,#b38').addClass('balloons-rotate-behaviour-two');
 		// $('#b3').addClass('balloons-rotate-behaviour-two');
 		// $('#b4').addClass('balloons-rotate-behaviour-one');
 		// $('#b5').addClass('balloons-rotate-behaviour-one');
