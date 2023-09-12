@@ -126,17 +126,22 @@ $('document').ready(function(){
 
 	$('#cake_fadein').click(function(){
 		$('.cake').fadeIn('slow');
+		// cake1
+		$('.cake1').fadeIn('slow');
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
 			$('#light_candle').fadeIn('slow');
 		 });
 		$(this).promise().done(function(){
 			$('#light_candle');
 		});
+
+		
 	});
 
 	$('#light_candle').click(function(){
 		$('.fuego').fadeIn('slow');
-
+		// fuego1
+		$('.fuego1').fadeIn('slow')
 		 $(this).fadeOut('slow').promise().done(function(){
 			$('#wish_message').fadeIn('slow');
 		});
