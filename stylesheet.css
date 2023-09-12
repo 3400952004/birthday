@@ -1129,6 +1129,100 @@ audio {
 #b8,#b88{
 	background-image: url('b8.png');
 }
+#b9,#b99{
+	background-image: url('b9.png');
+}
+#b10,#b100{
+	background-image: url('b10.png');
+}
+#b11,#b110{
+	background-image: url('b11.png');
+}
+#b12,#b120{
+	background-image: url('b12.png');
+}
+#b13,#b130{
+	background-image: url('b13.png');
+}
+#b14,#b140{
+	background-image: url('b14.png');
+}
+#b15,#b150{
+	background-image: url('b15.png');
+}
+#b16,#b160{
+	background-image: url('b16.png');
+}
+#b17,#b170{
+	background-image: url('b17.png');
+}
+#b18,#b180{
+	background-image: url('b18.png');
+}
+#b19,#b190{
+	background-image: url('b19.png');
+}
+#b20,#b200{
+	background-image: url('b20.png');
+}
+#b21,#b210{
+	background-image: url('b21.png');
+}
+#b22,#b220{
+	background-image: url('b22.png');
+}
+#b23,#b230{
+	background-image: url('b23.png');
+}
+#b24,#b240{
+	background-image: url('b24.png');
+}
+#b25,#b250{
+	background-image: url('b25.png');
+}
+#b26,#b260{
+	background-image: url('b26.png');
+}
+#b27,#b270{
+	background-image: url('b27.png');
+}
+#b28,#b280{
+	background-image: url('b28.png');
+}
+#b29,#b290{
+	background-image: url('b29.png');
+}
+#b30,#b300{
+	background-image: url('b30.png');
+}
+#b31,#b310{
+	background-image: url('b31.png');
+}
+#b32,#b320{
+	background-image: url('b32.png');
+}
+#b33,#b330{
+	background-image: url('b33.png');
+}
+#b34,#b340{
+	background-image: url('b34.png');
+}
+#b35,#b350{
+	background-image: url('b35.png');
+}
+#b36,#b360{
+	background-image: url('b36.png');
+}
+#b37,#b370{
+	background-image: url('b37.png');
+}
+#b38,#b380{
+	background-image: url('b38.png');
+}
+#b39,#b390{
+	background-image: url('b39.png');
+}
+
 .balloons-rotate-behaviour-one {
 	-webkit-animation: balloons_rotate_one linear 10s infinite;
 	-webkit-transform: rotate(30deg);
