@@ -385,8 +385,8 @@ $('document').ready(function(){
 
 	$('#cake_fadein').click(function(){
 		$('.cake').fadeIn('slow');		
-		$('.balloons').css('opacity','0.2');
-		$('.balloons1').css('opacity','0.2');
+		$('.balloons').css('opacity','0.1');
+		$('.balloons1').css('opacity','0.1');
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
 			$('#light_candle').fadeIn('slow');
 		 });
@@ -404,8 +404,6 @@ $('document').ready(function(){
 		});
 
 	});
-
-		// 测试蛋糕消失
 	$('#wish_message').click(function(){
 		 vw = $(window).width()/2;
 		$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').stop();
