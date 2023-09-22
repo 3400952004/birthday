@@ -442,7 +442,7 @@ $('document').ready(function(){
 			$("p:nth-child("+i+")").fadeOut('slow').delay(3000).promise().done(function(){
 			i=i+1;
 			$("p:nth-child("+i+")").fadeIn('slow').delay(3000);
-			if(i==18){
+			if(i==30){
 				i=i-1;
 				$("p:nth-child("+i+")").fadeIn('slow').promise().done(function () {
 					$('.cake').fadeIn('fast');
