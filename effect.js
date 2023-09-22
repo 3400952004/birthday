@@ -386,7 +386,15 @@ $('document').ready(function(){
 	$('#cake_fadein').click(function(){
 		$('.cake').fadeIn('slow');		
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
-			$('.balloons').css('opacity','0.1');
+			$('.balloons').css('opacity','0.5');
+			$('.balloons1').css('opacity','0.5');
+		$('.balloons').css('opacity','0.4');
+			$('.balloons1').css('opacity','0.4');
+		$('.balloons').css('opacity','0.3');
+			$('.balloons1').css('opacity','0.3');
+		$('.balloons').css('opacity','0.2');
+			$('.balloons1').css('opacity','0.2');
+		$('.balloons').css('opacity','0.1');
 			$('.balloons1').css('opacity','0.1');
 			$('#light_candle').fadeIn('slow');
 		 });
@@ -425,7 +433,7 @@ $('document').ready(function(){
 		$('.balloons').css('opacity','0.9');
 		
 		$('.balloons h2').fadeIn(3000);
-		$(this).fadeOut('slow').delay(3000).promise().done(function(){
+		$(this).fadeOut('slow').delay(10000).promise().done(function(){
 			$('#story').fadeIn('slow');
 		});
 	});
