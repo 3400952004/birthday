@@ -386,14 +386,7 @@ $('document').ready(function(){
 	$('#cake_fadein').click(function(){
 		$('.cake').fadeIn('slow');		
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
-			$('.balloons').css('opacity','0.5');
-			$('.balloons1').css('opacity','0.5');
-		$('.balloons').css('opacity','0.4');
-			$('.balloons1').css('opacity','0.4');
-		$('.balloons').css('opacity','0.3');
-			$('.balloons1').css('opacity','0.3');
-		$('.balloons').css('opacity','0.2');
-			$('.balloons1').css('opacity','0.2');
+		
 		$('.balloons').css('opacity','0.1');
 			$('.balloons1').css('opacity','0.1');
 			$('#light_candle').fadeIn('slow');
@@ -451,7 +444,6 @@ $('document').ready(function(){
 			i=i+1;
 			$("p:nth-child("+i+")").fadeIn('slow').delay(3000);
 			if(i==31){
-				i=i-1;
 				$("p:nth-child("+i+")").fadeIn('slow').promise().done(function () {
 					$('.cake').fadeIn('fast');
 					// 测试结尾句
